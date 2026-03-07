@@ -1,0 +1,10 @@
+# Environment (credentials)
+.env
+
+# Database dumps and backups
+*.dump
+*.sql.bak
+*.backup
+
+# OS
+.DS_Store
