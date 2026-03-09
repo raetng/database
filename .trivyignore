@@ -19,3 +19,11 @@ CVE-2026-23950
 CVE-2026-24842
 CVE-2026-26960
 CVE-2026-29786
+
+# gosu Go stdlib vulnerabilities (bundled in postgres:16-alpine base image)
+# gosu is used internally by PostgreSQL entrypoint for privilege dropping
+# These are in the embedded Go runtime (v1.24.6), not application code
+CVE-2025-58183
+CVE-2025-61726
+CVE-2025-61728
+CVE-2025-61729
