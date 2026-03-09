@@ -30,3 +30,4 @@ For schema changes, add a new numbered file to `init/` (e.g., `03_add_column.sql
 test
 test2
 test3
+test4
