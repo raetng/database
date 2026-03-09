@@ -7,10 +7,6 @@ pipeline {
         timeout(time: 60, unit: 'MINUTES')
     }
 
-    triggers {
-        githubPush()
-    }
-
     environment {
         DOCKER_IMAGE       = 'raetng/database'
         DOCKER_CREDENTIALS = 'dockerhub-credentials'
