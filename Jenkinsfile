@@ -8,7 +8,7 @@ pipeline {
     }
 
     triggers {
-        pollSCM('* * * * *') // every 1 minute for demo; use webhook in production
+        githubPush()
     }
 
     environment {
