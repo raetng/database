@@ -27,3 +27,4 @@ psql -h localhost -U postgres -d ecommerce
 ## Adding Migrations
 
 For schema changes, add a new numbered file to `init/` (e.g., `03_add_column.sql`). In production, use a proper migration tool integrated into the CI/CD pipeline.
+test
